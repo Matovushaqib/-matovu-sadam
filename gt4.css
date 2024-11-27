@@ -1,0 +1,331 @@
+p{
+	color:geen;
+	font-family:arial;
+}
+/*id selector*/
+#fg{
+	text-align:left;
+	color:blue;
+}
+/*class selector*/
+.boy{
+	text-align:right;
+	font-family:san-serif;
+}
+
+p.hy{
+	color:blue;
+	font-family:arial;
+}
+/* universal selector*/
+*{
+	text-align:center;
+	color:red;
+	
+}
+/*grouping selector*/
+h1,h2,h3{
+	text-align:left;
+	color:green;
+}
+div p {
+	background-color:blue;
+}
+div>p{
+	background-color:grey;
+}
+a[target] {
+	background-color:green;
+}
+[title~="df"]{
+	border:10px solid blue;
+}
+p.v{
+	text-align:justify;
+}
+p.t{
+	text-align:left;
+}
+p.j{
+	text-align:center;
+} 
+/* text direction*/
+p.j{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+/*vertical alignment top*/
+img.fr{
+	vertical-align:text-top;
+}
+/*vertical alignment baseline*/
+img.df{
+	vertical-align:baseline;
+}
+h1.g{
+	vertical-align:super;
+}
+/*text shadows*/
+h1.v{
+	text-shadow:3px 3px blue;
+}
+/*vertical-align: super*/
+#myDIV{
+	height:200px;
+	background-color:none;
+}
+span{
+	background:lightblue;
+	vertical-align:super;
+}
+/*vertical-align: -50%*/
+#hj{
+	height:300px;
+	background-color:none;
+}
+span{
+	background:grey;
+	vertical-align:-50%;
+}
+h5{
+	text-decoration:line-through;
+}
+h6{
+	text-decoration:overline;
+}
+p.io{
+	text-decoration:overline underline;
+}
+/*css unit centimeters(cm)*/
+h1.dj{
+	font-size:1cm;
+	line-height:1cm;
+}
+/*demostrate css unit milimeters(mm)*/
+p.we{
+	font-size:10mm;
+	line-height:7mm;
+}
+/*demostrate css unit inches(in)*/
+h1.cv{
+	text-align:center;
+	font-size:o.5in;
+	line-height:1in;
+}
+/*demostrate css unit in pixels(px)*/
+h2.tr{
+	font-size:10px;
+	line-height:15px;
+}
+/*demostrate css unit in points(pt)*/
+h1.xz{
+	text-align:center;
+	font-size:15pt;
+	line-height:25pt;
+}
+/*demostrate css unit in picas(pc)*/
+h1.bnm{
+	text-align:center;
+	font-size:8pc;
+	line-height:10pc;
+}
+/*demostrate css unit em*/
+h1.gh{
+	text-align:center;
+	font-size:2em;
+	line-height:2em;
+}
+/*demostrate css unit ex*/
+div.gd{
+	font-size:20px;
+	border:2px solid red;
+}
+span.v{
+	font-size:1ex;
+}
+/*demostrate css unit ch*/
+body{
+	font-size:15px;
+	margin:2px 2px 2px;
+	padding:15px;
+}
+div.op{
+	font-size:2ch;
+	border:2px solid yellow;
+}
+/*demostrate css unit rem*/
+body{
+	font-size:15px;
+}
+span.vg{
+	font-size:3rem;
+	border:1px solid blue;
+}
+/*demostrate css unit vw(width of the viewport)*/
+span.yu{
+	font-size:15vw;
+	background-color:lightblue;
+}
+/*demstrate css unit vh(height of the viewport)*/
+span.fe{
+	font-size:10vh;
+	background-color:grey;
+}
+/*demostrate css unit vmin(viewport's smaller dimension)*/
+span.dhg{
+	font-size:5vmin;
+	background-color:green;
+}
+/*demostrate css unit vmax (viewport's larger dimension)*/
+span.ytr{
+		font-size:15max;
+	background-color:grey;
+}
+/*demostrate css unit % */
+div.pl{
+	font-size:50%;
+	border:2px dotted black;
+}
+/*demostrate css value (caption)*/
+table,th,td{
+	border:2px solid blue;
+}
+caption{
+	display:table-caption;
+	text-align:center;
+}
+/*demostrate css value colgroup*/
+table.gu,th.ti,td.vt{
+	border:2px dotted black;
+}
+colgroup{
+	display:table-colmn-group;
+}
+/*demostrate css value dd*/
+dd{
+	display:block;
+	margin-left:40px;
+}
+/*demostrate css value fieldset*/
+fieldset{
+	display:block;
+	margin-left:2px;
+	margin-right:2px;
+	padding-top:0.35em;
+	padding-bottom:0.625em;
+	padding-left:0.75em;
+	padding-right:0.75em;
+	border:2px groove (internal value);
+}
+/*demostrate css value figure*/
+figure{
+	display:block;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	margin-left:30px;
+	margin-right:30px;
+}
+/*demostrate css value ol*/
+ol{
+	display:block;
+	list-style-type:decimal;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	margin-left:0;
+	margin-right:0;
+	padding-left:40px;
+}
+/*demostrate display property*/
+#fdc{
+	height:200px;
+	background-color:#7A99B1;
+}
+#fdc p{
+	background-color:green;
+	padding:10px;
+	margin:20px;
+	display:list-item;
+}
+#fdc span.e{
+	background-color:yellow;
+	padding:5px;
+	color:blue;
+}
+/*demonstrate exercise number six*/
+img{
+	border-radius:150px;
+	width:100px;
+	height:100px;
+}
+p.bc{
+	color:black;
+}
+p.op{
+	color:blue;
+	padding:2px;
+
+}
+section{
+	border-top:1px;
+	border-right:2px;
+	border-bottom:1px;
+	border-left:2px;
+	padding:50px;
+	background-color:grey; 
+	margin:20px;
+}
+section.jpeg{
+	border-top:1px;
+	border-right:2px;
+	border-bottom:1px;
+	border-left:2px;
+	color:green;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:lightblue;
+	margin:20px;
+}
+/*demonstrate box model*/
+div.two{
+	background-color:white;
+	width:250px;
+	border:10px solid yellow;
+	margin:20px;
+}
+/*demonstrate number six part 4*/
+section.three{
+	border-top:1px;
+	border-right:2px;
+	border-bottom:1px;
+	border-left:2px;
+	padding:50px;
+	background-color:grey; 
+	margin:20px;
+	font:20px;
+}
+p.three{
+	color:yellow;
+}
+p.four{
+	color:green;
+}
+/*demonstrate exercise 6 part 3*/
+/*1st box with padding and border*/
+div.five{
+	background-color:blue;
+	width:200px;
+	border: 20px solid green;
+	margin:35px; 
+	padding:35px;
+}
+/*2nd box without padding and border */
+div.six{
+	background-color:blue;
+	width:200px;
+	border: 20px solid green;
+}
+p.seven{
+	color:white;
+}

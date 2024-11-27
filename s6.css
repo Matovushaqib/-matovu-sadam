@@ -1,0 +1,60 @@
+section{
+	border-top:1px;
+	border-right:2px;
+	border-bottom:1px;
+	border-left:2px;
+	padding:20px;
+	background-color:grey; 
+	margin:20px;
+}
+p.bc{
+	color:black;
+}
+p.op{
+	color:blue;
+	padding:2px;
+}
+p.three{
+	color:yellow;
+}
+p.four{
+	color:green;
+}
+section.three{
+	border-top:1px;
+	border-right:2px;
+	border-bottom:1px;
+	border-left:2px;
+	padding:50px;
+	background-color:grey; 
+	margin:20px;
+	font:20px;
+}
+section.jpeg{
+	border-top:1px;
+	border-right:2px;
+	border-bottom:1px;
+	border-left:2px;
+	color:green;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:lightblue;
+	margin:20px;
+}
+img{
+	border-radius:150px;
+	width:100px;
+	height:100px;
+}
+body{
+	font-size:15px;
+	margin:2px 2px 2px;
+	padding:200px;
+	margin:200px;
+}
+*{
+	text-align:center;
+	color:red;
+}
